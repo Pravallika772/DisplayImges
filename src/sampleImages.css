@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+body{
+font-family: 'Fredoka', sans-serif;
+}
+.Title{
+  height:80px;
+  margin-top:30px;
+}
+.underline{
+  width: 180px;
+  border: solid 1px rgb(144, 189, 184);
+  position:relative;
+  top:-13px;
+  left: 41%;
+}
+      
+.GreatPeopleImg{
+  padding: 0px 150px;
+}
+.ImageGallery{
+  display:flex;
+  justify-content: space-between;
+}
+.ImageCard{
+  width: 220px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: rgb(254, 249, 249);
+  color: gray;
+  font-size: small;
+}
+.ImageCard:hover{
+  background-color: rgb(144, 189, 184);
+  color: white;
+}
+.DisaplyImage{
+  width: 220px;
+}
+.DisaplyImage img{
+  width: 220px;
+  object-fit:cover;
+  border-radius: 10px 10px 0px 0px;
+}
+.cbody{
+  height:50px;
+  font-family: 'Fredoka', sans-serif;
+}
+.cbody p{
+  margin: 0px;
+}
+.cbody span{
+  position: relative;
+  top: -5px;
+  font-size:0.65rem;
+}
